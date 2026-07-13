@@ -1,8 +1,9 @@
+# src/backtesting/reporter.py
 import json
 from datetime import datetime
 from typing import List
-from backtesting.metrics_calculator import BacktestMetrics
-from backtesting.signal_validator import SignalResult
+from .metrics_calculator import BacktestMetrics
+from .signal_validator import SignalResult
 
 class BacktestReporter:
     """Generate professional backtest reports"""

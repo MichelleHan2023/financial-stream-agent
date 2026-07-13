@@ -1,3 +1,4 @@
+# src/backtesting/synthetic_data.py
 """Synthetic realistic price data for backtesting when live data unavailable"""
 import pandas as pd
 import numpy as np

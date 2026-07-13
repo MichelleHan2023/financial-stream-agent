@@ -1,8 +1,9 @@
+# src/backtesting/metrics_calculator.py
 import numpy as np
 import logging
 from typing import List
 from dataclasses import dataclass
-from backtesting.signal_validator import SignalResult
+from .signal_validator import SignalResult
 
 logger = logging.getLogger(__name__)
 

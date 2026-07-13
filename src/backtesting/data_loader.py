@@ -1,10 +1,11 @@
+# src/backtesting/data_loader.py
 import yfinance as yf
 import json
 import logging
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 import pandas as pd
-from backtesting.synthetic_data import generate_synthetic_prices
+from .synthetic_data import generate_synthetic_prices
 
 logger = logging.getLogger(__name__)
 
