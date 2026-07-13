@@ -6,4 +6,4 @@ __pycache__/
 logs/
 *.log
 data/cache/
-.pytest_cache/
+.pytest_cache/.env
