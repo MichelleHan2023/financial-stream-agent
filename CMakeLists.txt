@@ -8,11 +8,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(CURL REQUIRED)
 
 # Include directories
-include_directories(${CMAKE_SOURCE_DIR}/src/include)
+include_directories(${CMAKE_SOURCE_DIR}/src/cpp/include)
 
 # Add trading engine executable
 add_executable(trading_engine 
-    src/client/trading_engine.cpp
+    src/cpp/client/trading_engine.cpp
 )
 
 # Link libraries
@@ -23,6 +23,6 @@ target_link_libraries(trading_engine
 # Installation
 install(TARGETS trading_engine DESTINATION bin)
 
-message(STATUS "✅ Financial Stream Agent - C++ Trading Engine")
-message(STATUS "   Python components: Real-time signal generation")
-message(STATUS "   C++ components: High-performance stream processing")
+message(STATUS "✅ Financial Stream Agent")
+message(STATUS "   📊 Python: ML/Signal Generation (src/python/)")
+message(STATUS "   ⚡ C++: High-Performance Trading Engine (src/cpp/)")

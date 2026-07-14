@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/michelle/Desktop/financial-stream-agent/src/client/trading_engine.cpp" "CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o" "gcc" "CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o.d"
+  "/Users/michelle/Desktop/financial-stream-agent/src/cpp/client/trading_engine.cpp" "CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o" "gcc" "CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

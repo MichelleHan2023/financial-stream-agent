@@ -72,28 +72,28 @@ include CMakeFiles/trading_engine.dir/flags.make
 CMakeFiles/trading_engine.dir/codegen:
 .PHONY : CMakeFiles/trading_engine.dir/codegen
 
-CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o: CMakeFiles/trading_engine.dir/flags.make
-CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o: /Users/michelle/Desktop/financial-stream-agent/src/client/trading_engine.cpp
-CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o: CMakeFiles/trading_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/michelle/Desktop/financial-stream-agent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o -MF CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o.d -o CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o -c /Users/michelle/Desktop/financial-stream-agent/src/client/trading_engine.cpp
+CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o: CMakeFiles/trading_engine.dir/flags.make
+CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o: /Users/michelle/Desktop/financial-stream-agent/src/cpp/client/trading_engine.cpp
+CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o: CMakeFiles/trading_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/michelle/Desktop/financial-stream-agent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o -MF CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o.d -o CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o -c /Users/michelle/Desktop/financial-stream-agent/src/cpp/client/trading_engine.cpp
 
-CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michelle/Desktop/financial-stream-agent/src/client/trading_engine.cpp > CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.i
+CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michelle/Desktop/financial-stream-agent/src/cpp/client/trading_engine.cpp > CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.i
 
-CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michelle/Desktop/financial-stream-agent/src/client/trading_engine.cpp -o CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.s
+CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michelle/Desktop/financial-stream-agent/src/cpp/client/trading_engine.cpp -o CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.s
 
 # Object files for target trading_engine
 trading_engine_OBJECTS = \
-"CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o"
+"CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o"
 
 # External object files for target trading_engine
 trading_engine_EXTERNAL_OBJECTS =
 
-trading_engine: CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o
+trading_engine: CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o
 trading_engine: CMakeFiles/trading_engine.dir/build.make
 trading_engine: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 trading_engine: CMakeFiles/trading_engine.dir/link.txt

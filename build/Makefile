@@ -174,29 +174,29 @@ trading_engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/build
 .PHONY : trading_engine/fast
 
-src/client/trading_engine.o: src/client/trading_engine.cpp.o
-.PHONY : src/client/trading_engine.o
+src/cpp/client/trading_engine.o: src/cpp/client/trading_engine.cpp.o
+.PHONY : src/cpp/client/trading_engine.o
 
 # target to build an object file
-src/client/trading_engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o
-.PHONY : src/client/trading_engine.cpp.o
+src/cpp/client/trading_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o
+.PHONY : src/cpp/client/trading_engine.cpp.o
 
-src/client/trading_engine.i: src/client/trading_engine.cpp.i
-.PHONY : src/client/trading_engine.i
+src/cpp/client/trading_engine.i: src/cpp/client/trading_engine.cpp.i
+.PHONY : src/cpp/client/trading_engine.i
 
 # target to preprocess a source file
-src/client/trading_engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.i
-.PHONY : src/client/trading_engine.cpp.i
+src/cpp/client/trading_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.i
+.PHONY : src/cpp/client/trading_engine.cpp.i
 
-src/client/trading_engine.s: src/client/trading_engine.cpp.s
-.PHONY : src/client/trading_engine.s
+src/cpp/client/trading_engine.s: src/cpp/client/trading_engine.cpp.s
+.PHONY : src/cpp/client/trading_engine.s
 
 # target to generate assembly for a file
-src/client/trading_engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.s
-.PHONY : src/client/trading_engine.cpp.s
+src/cpp/client/trading_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_engine.dir/build.make CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.s
+.PHONY : src/cpp/client/trading_engine.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... trading_engine"
-	@echo "... src/client/trading_engine.o"
-	@echo "... src/client/trading_engine.i"
-	@echo "... src/client/trading_engine.s"
+	@echo "... src/cpp/client/trading_engine.o"
+	@echo "... src/cpp/client/trading_engine.i"
+	@echo "... src/cpp/client/trading_engine.s"
 .PHONY : help
 
 

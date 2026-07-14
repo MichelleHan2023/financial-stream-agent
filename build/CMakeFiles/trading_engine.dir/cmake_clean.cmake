@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o"
-  "CMakeFiles/trading_engine.dir/src/client/trading_engine.cpp.o.d"
+  "CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o"
+  "CMakeFiles/trading_engine.dir/src/cpp/client/trading_engine.cpp.o.d"
   "trading_engine"
   "trading_engine.pdb"
 )
