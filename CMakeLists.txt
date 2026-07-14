@@ -4,9 +4,25 @@ project(FinancialStreamAgent)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Optional: High-performance C++ components
-# add_executable(trading_engine src/client/trading_engine.cpp)
-# TODO: Implement C++ trading engine for real-time stream processing
+# Find required packages
+find_package(CURL REQUIRED)
 
-message(STATUS "Python-based Financial Stream Agent")
-message(STATUS "C++ components: Planned for future versions")
+# Include directories
+include_directories(${CMAKE_SOURCE_DIR}/src/include)
+
+# Add trading engine executable
+add_executable(trading_engine 
+    src/client/trading_engine.cpp
+)
+
+# Link libraries
+target_link_libraries(trading_engine 
+    ${CURL_LIBRARIES}
+)
+
+# Installation
+install(TARGETS trading_engine DESTINATION bin)
+
+message(STATUS "✅ Financial Stream Agent - C++ Trading Engine")
+message(STATUS "   Python components: Real-time signal generation")
+message(STATUS "   C++ components: High-performance stream processing")
